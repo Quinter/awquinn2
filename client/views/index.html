@@ -75,19 +75,7 @@
         <div id="contact-error"></div>
         <h2>Contact</h2>
         <h4>Please feel free to contact me via this form, or at my email: <a href="mailto:andrewquinnw@gmail.com">andrewquinnw@gmail.com</a></h4>
-        <form id="contact-form">
-          <div class="row">
-            <div class="col-md-6" id="form-left">
-              <textarea id="message" name="message"  placeholder="Your message"></textarea>
-          </div>
-          <div class="col-md-6" id="form-right">
-            <input id="name" type="text" class="form-control" placeholder="Your name" name="name">
-            <input id="email" type="text" class="form-control" placeholder="Your email address" name="email">
-            <input type="hidden" name="save" value="contact">
-            <input type="submit" value="Send message">
-          </div>
-        </div>
-        </form>  
+        {{>insertContactForm}}
       </div>
     </section>
 
